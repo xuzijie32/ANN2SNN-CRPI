@@ -1,5 +1,5 @@
 # ANN-to-SNN Conversion in Continuous Control
-[[`📕 arXiv`](https://arxiv.org/pdf/2509.23791)]
+[[`📕 arXiv`](https://arxiv.org/pdf/2601.21778)]
 Official code release for the **ICML 2026** paper 👇
 ### Error Amplification Limits ANN-to-SNN Conversion in Continuous Control
 Zijie Xu, Zihan Huang, Yiting Dong, Kang Chen, Wenxuan Liu, Zhaofei Yu
