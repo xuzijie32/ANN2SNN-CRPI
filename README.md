@@ -35,6 +35,7 @@ The original ANN policy `--policy_name` can be "DDPG", "TD3", or "SAC". The envi
 
 Experiments on DMC can be run with:
 ```
+export MUJOCO_GL=egl
 python convert.py --env cartpole_swingup --SNN_ts 32 --seed 0
 ```
 The environment `--env` can be "cartpole_swingup", "finger_spin", "reacher_easy", "cheetah_run", "acrobot_swingup", or "quadruped_walk". Running this command will output a .npy file of size `[11]`, including the average returns for 11 different values of $\alpha$: $0,0.1,0.2,\cdots,0.9,1$. 
