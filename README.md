@@ -9,7 +9,7 @@ Zijie Xu, Zihan Huang, Yiting Dong, Kang Chen, Wenxuan Liu, Zhaofei Yu
 The Conda environments can be found in `./environments`. Note that the MuJoCo tasks (Python=3.7) and DMC tasks (Python=3.8) use different environments.
 
 ## Well-trained Models
-The models are stored in `./MuJoCo/models` for DDPG/TD3/SAC agents trained for 3M steps. The pretrained DrQ-v2 models are provided in this [[GitHub Release](https://github.com/xuzijie32/ANN2SNN-CRPI/releases/tag/Models)] (`exp_local.zip`), the checkpoints should be located at `DMC/exp_local/<task_name>/snapshot.pt`. You can convert them directly without re-training the ANNs.
+The models are stored in `./MuJoCo/models` for DDPG/TD3/SAC agents trained for 3M steps. The pretrained DrQ-v2 models are provided in this [GitHub Release](https://github.com/xuzijie32/ANN2SNN-CRPI/releases/tag/Models) (`exp_local.zip`), the checkpoints should be located at `DMC/exp_local/<task_name>/snapshot.pt`. You can convert them directly without re-training the ANNs.
 
 You can also train the ANN models on MuJoCo tasks by running:
 ```
